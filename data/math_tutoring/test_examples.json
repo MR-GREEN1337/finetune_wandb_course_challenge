@@ -1,0 +1,18 @@
+[
+  {
+    "instruction": "You are a helpful and knowledgeable math tutor. Help the student with their question: How do I calculate limits in calculus?",
+    "response": "Strategies for calculating limits:\n\n1. Direct substitution: If the function is continuous at point a, simply substitute x = a\n   lim[x\u21922] (x\u00b2 + 3x) = 2\u00b2 + 3(2) = 4 + 6 = 10\n\n2. Factoring: For limits with divisions that give 0/0\n   lim[x\u21923] (x\u00b2-9)/(x-3) = lim[x\u21923] (x+3)(x-3)/(x-3) = lim[x\u21923] (x+3) = 6\n\n3. Rationalization: For limits with square roots\n   lim[x\u21924] (\u221ax-2)/(x-4) = lim[x\u21924] (\u221ax-2)/((x-4)(\u221ax+2)) = lim[x\u21924] 1/(\u221ax+2) = 1/4\n\n4. L'H\u00f4pital's Rule: For indeterminate forms like 0/0 or \u221e/\u221e, take derivatives of numerator and denominator\n   lim[x\u21920] sin(x)/x = lim[x\u21920] cos(x)/1 = 1\n\n5. Special limits:\n   lim[x\u21920] sin(x)/x = 1\n   lim[x\u2192\u221e] (1+1/x)^x = e\n\nAlways look for indeterminate forms (0/0, \u221e/\u221e, etc.) and apply the appropriate technique."
+  },
+  {
+    "instruction": "You are a helpful and knowledgeable math tutor. Explain calculate probability?",
+    "response": "Basic probability is calculated as:\n\nP(event) = Number of favorable outcomes / Total number of possible outcomes\n\nKey probability concepts:\n\n1. For independent events, multiply probabilities:\n   P(A and B) = P(A) \u00d7 P(B)\n\n2. For mutually exclusive events, add probabilities:\n   P(A or B) = P(A) + P(B)\n\n3. For non-mutually exclusive events:\n   P(A or B) = P(A) + P(B) - P(A and B)\n\n4. Complement rule:\n   P(not A) = 1 - P(A)\n\nExample: In a standard deck of 52 cards, the probability of drawing a heart is:\nP(heart) = 13/52 = 1/4 = 0.25 or 25%\n\nProbability always ranges from 0 (impossible) to 1 (certain)."
+  },
+  {
+    "instruction": "You are a helpful and knowledgeable math tutor. How would you solve What are the laws of logarithms?",
+    "response": "The fundamental laws of logarithms:\n\n1. Product rule: log_b(MN) = log_b(M) + log_b(N)\n   Example: log(2\u00d78) = log(2) + log(8)\n\n2. Quotient rule: log_b(M/N) = log_b(M) - log_b(N)\n   Example: log(50/5) = log(50) - log(5)\n\n3. Power rule: log_b(M^p) = p \u00d7 log_b(M)\n   Example: log(3^4) = 4 \u00d7 log(3)\n\n4. Base change formula: log_b(x) = log_a(x) / log_a(b)\n   Example: log_2(16) = log(16) / log(2)\n\n5. Special properties:\n   - log_b(1) = 0 (for any base b)\n   - log_b(b) = 1 (for any base b)\n   - log_b(b^x) = x\n   - b^(log_b(x)) = x\n\nThese rules help simplify complex logarithmic expressions and solve logarithmic equations."
+  },
+  {
+    "instruction": "You are a helpful and knowledgeable math tutor. How would you solve What is the derivative of sin(x)?",
+    "response": "The derivative of sin(x) is cos(x).\n\nThis is one of the fundamental derivatives in calculus. You can prove this using the limit definition of a derivative:\n\nf'(x) = lim[h\u21920] [f(x+h) - f(x)]/h\n\nFor sin(x), working through this limit with trigonometric identities leads to cos(x).\n\nSimilarly, the derivative of cos(x) is -sin(x).\n\nThese derivatives are essential for solving problems involving oscillations, waves, and periodic phenomena."
+  }
+]
